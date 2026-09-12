@@ -1,0 +1,41 @@
+# Ignore the gene expression cancer RNA-Seq Data Set folder
+gene expression cancer RNA-Seq Data Set/
+"gene expression cancer RNA-Seq Data Set"/
+
+# Alternative patterns for similar folder names
+*gene*expression*cancer*RNA-Seq*Data*Set*/
+*Gene*Expression*Cancer*RNA-Seq*Data*Set*/
+
+# Temporary and cache files
+*.tmp
+*.cache
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+tempCodeRunnerFile.py
+
+# Jupyter Notebook checkpoints
+# dataset/
+venv/
+.venv/

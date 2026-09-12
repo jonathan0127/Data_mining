@@ -1,0 +1,18 @@
+[project]
+name = "data-mining-final"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "imbalanced-learn",
+    "kneed",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "umap-learn",
+]
+
+[tool.uv]
+package = false
